@@ -85,6 +85,12 @@ function Dashboard() {
           
         </Row>
       </div>
+      <div className="credits ml-auto">
+        <div className="copyright">
+          &copy; {1900 + new Date().getYear()}, UTD {" "}
+          <i className=" fa fa-heart heart" />  Derechos Reservados Victor Emmanuel Soto Graciano
+        </div>
+      </div>
     </>
   );
 }
